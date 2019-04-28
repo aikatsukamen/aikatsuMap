@@ -90,7 +90,14 @@
   dependencies:
     "@types/node" "*"
 
-"@types/leaflet@^1.4.4":
+"@types/leaflet.heat@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@types/leaflet.heat/-/leaflet.heat-0.2.0.tgz#f1b964fc0c360a94c4f1d1536a95df7468a458c5"
+  integrity sha512-j/vfitsOOR7AU63/mlshqr88a6uZUObkvc55b3XkR2p7q0FFr021NMNineVhn1uT8BYfEETFraQCo/IZZpV3QQ==
+  dependencies:
+    "@types/leaflet" "*"
+
+"@types/leaflet@*", "@types/leaflet@^1.4.4":
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.4.4.tgz#4a3d9815fe6c32a04ac3a230fe23772be8e0de83"
   integrity sha512-CROxHvsRDFyR1OQKZv/WJsCVFv8Wj6wFF/FOI/yiGwX7GMivyvF8Ks5AT3/JYk269pGiE43wP9JOgcr7EK2eUw==
@@ -2183,6 +2190,11 @@ lcid@^2.0.0:
   integrity sha512-avPEb8P8EGnwXKClwsNUgryVjllcRqtMYa49NTsbQagYuT1DcXnl1915oxWjoyGrXR6zH/Y0Zc96xWsPcoDKeA==
   dependencies:
     invert-kv "^2.0.0"
+
+leaflet.heat@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/leaflet.heat/-/leaflet.heat-0.2.0.tgz#109d8cf586f0adee41f05aff031e27a77fecc229"
+  integrity sha1-EJ2M9Ybwre5B8Fr/Ax4np3/swik=
 
 leaflet@^1.4.0:
   version "1.4.0"

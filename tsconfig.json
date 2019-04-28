@@ -9,8 +9,8 @@
     "moduleResolution": "node",
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
-    // "resolveJsonModule": true,
-    // "esModuleInterop": true, これ指定するとトランスパイル後のモジュール読み込みでコケる
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,

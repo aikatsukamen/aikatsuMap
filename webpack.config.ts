@@ -37,9 +37,7 @@ const config: Configuration = {
       {
         test: /\.tsx?$/,
         loader: 'ts-loader',
-        options: {
-          // configFileName: `./src/${name}/tsconfig.webpack.json`
-        },
+        options: {},
       },
       // CSS
       {
