@@ -5,8 +5,8 @@ import fs from 'fs';
 import path from 'path';
 import { StoreData } from '../src/types/shims';
 
-/** 都道府県IDの最大値 */
-const prefMax = 47;
+/** 都道府県IDの最大値。47都道府県＋台湾 */
+const prefMax = 48;
 const inputFilenamePrefix = 'tmp/02/store';
 const outputFilename = 'src/data/store.json';
 const ext = '.json';
