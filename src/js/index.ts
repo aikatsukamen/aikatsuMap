@@ -12,14 +12,14 @@ console.log(_L);
 const icon = L.icon({
   iconUrl: 'https://www.aikatsu.com/friends/images/playshop/kyoutai.gif',
   iconRetinaUrl: 'https://www.aikatsu.com/friends/images/playshop/kyoutai.gif',
-  iconSize: [50, 50],
-  iconAnchor: [25, 50],
-  popupAnchor: [0, -50],
+  iconSize: [40, 40],
+  // iconAnchor: [25, 50],
+  // popupAnchor: [0, -50],
 });
 
 /** 地図の初期ズームレベル */
 const zoom = 8;
-const map = L.map('map').setView([storeData[0].grid[0], storeData[0].grid[1]], zoom);
+const map = L.map('map').setView([35.699024, 139.771062], zoom);
 
 // 地図情報を取ってくるところ
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {

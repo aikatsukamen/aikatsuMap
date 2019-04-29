@@ -15,8 +15,8 @@ const commonConfig: Partial<Configuration> = {
   },
 };
 
+// webpack-dev-serverの設定
 const devServerConfig: webpackDevServer.Configuration = {
-  // webpack-dev-serverの設定
   contentBase: `${__dirname}/docs`,
   publicPath: '/',
   open: true,

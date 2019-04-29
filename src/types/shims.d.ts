@@ -10,16 +10,21 @@ declare module '*.gif' {
 
 declare interface Window {}
 
-declare module '*/store.json' {
-  const store: {
-    /** 店舗名 */
-    name: string;
-    /** 住所 */
-    address: string;
-    /** 緯度、経度 */
-    grid: [number, number];
-    /** 筐体数 */
-    machineNum: number;
-  }[];
+declare module '*.json' {
+  const store: StoreData[];
   export default store;
 }
+
+/** 店舗情報 */
+export type StoreData = {
+  /** 店舗名 */
+  name: string;
+  /** 住所 */
+  address: string;
+  /** 緯度、経度 */
+  grid: [number, number];
+  /** 筐体数 */
+  machineNum: number;
+  /** 県ID */
+  prefId: number;
+};

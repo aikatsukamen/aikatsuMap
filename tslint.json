@@ -6,7 +6,7 @@
   "rulesDirectory": ["tslint-plugin-prettier"],
   "rules": {
     "interface-name": false,
-    "no-console": true,
+    "no-console": false,
     "no-unused-variable": [true, { "ignore-pattern": ["^_"] }],
     "ordered-imports": false,
     "object-literal-sort-keys": false,
